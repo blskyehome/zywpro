@@ -5,3 +5,7 @@ body{
     display: block;
     background: url("../img/body_bg.jpg") center no-repeat;
 }
+.cont-userbox .cont-bg{
+    background: #feca97;
+    background: url("../img/profile_cover_s.jpg");
+}
