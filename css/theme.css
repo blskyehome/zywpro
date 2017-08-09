@@ -1,0 +1,7 @@
+body{
+    background: #feca97;
+}
+.theme-head{
+    display: block;
+    background: url("../img/body_bg.jpg") center no-repeat;
+}
