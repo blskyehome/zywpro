@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/theme1.css">
+    <link rel="stylesheet" href="css/theme.css">
 </head>
 <body>
 <div class="index-head">
@@ -63,18 +63,40 @@
 			</div>
 		</div>
 		<div class="col-md-7 cont-sub">
-			<div class="sub-write">
-				<div class="pull-left sub-write-img"></div>
-				<div class="sub-write-inputbox">
-					<div class="inputbox-input"></div>
-					<div class="inputbox-img"></div>
-					<div class="inputbox-cue"></div>
+			<div class="sub-write clearfix">
+				<div class="pull-left sub-write-img">
+					<img src="img/userlogo-mini.jpg" alt="">
+				</div>
+				<div class="pull-right sub-write-inputbox">
+					<div class="write-inputbox">
+						<textarea class="inputbox-input" placeholder="有什么新鲜事？"></textarea>
+						<i class="glyphicon glyphicon-picture inputbox-img"></i>
+						<!--<p class="inputbox-cue">有什么新鲜事？</p>-->
+					</div>
+					<div class="write-btngroup clearfix">
+						<div class="pull-left btn-group-icon">
+							<a href=""><i class="icon2-smile"></i> 表情</a>
+							<a href=""><i class="icon2-image"></i> 图片</a>
+							<a href=""><i class="icon2-video-camera"></i> 视频</a>
+						</div>
+						<div class="pull-right btn-group-btn">
+							<button class="group-btn-sub">发布</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sub-articlebox">
+				<div class="row sub-article">
+					<div class="col-md-2 article-logo"></div>
+					<div class="col-md-10 article-cont">
+						<h4 class="article-name"></h4>
+						<span class="article-time"></span>
+						<p class="article-txt"></p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2" style="background: #d58512">
-			2484
-		</div>
+		<div class="col-md-2"></div>
 	</div>
 </div>
 </body>
