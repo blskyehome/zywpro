@@ -42,3 +42,9 @@ body{
 .write-btngroup .btn-group-btn .group-btn-sub:hover{
     background: #f93;
 }
+.sub-article .article-cont .article-name:hover{
+    color: #f96;
+}
+.sub-article .article-oper a:hover{
+    color: #f96;
+}

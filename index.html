@@ -16,7 +16,7 @@
 	        <form class="bs-example bs-example-form" role="form">
 	            <div class="search-group">
 	                <input type="text" class="search-input" placeholder="搜索密聊">
-	                <i class="glyphicon glyphicon-search search-icon"></i>
+					<a href=""><i class="glyphicon glyphicon-search search-icon"></i></a>
 	            </div>
 	        </form>
 	    </div>
@@ -31,7 +31,7 @@
             	<li><a href=""><i class="glyphicon glyphicon-bell"></i></a></li>
             	<li><a href=""><i class="glyphicon glyphicon-envelope"></i></a></li>
             	<li><a href=""><i class="glyphicon glyphicon-cog"></i></a></li>
-            	<li><a href="" class="info-btn">发文</a></li>
+            	<li class="info-push"><a href="" class="info-btn">发文</a></li>
             </ul>
         </div>
     </div>
@@ -43,20 +43,20 @@
 			<div class="cont-userbox">
 				<div class="cont-bg"></div>
 				<div class="cont-text">
-					<div class="pull-left cont-text-img"><img src="img/userlogo.jpg" alt=""></div>
-					<p class="cont-text-name">张译文</p>
-					<p class="cont-text-id">@ZhangEavan</p>
+					<div class="pull-left cont-text-img"><a href=""><img src="img/userlogo.jpg" alt=""></a></div>
+					<a href=""><p class="cont-text-name">张译文</p></a>
+					<p class="cont-text-id">@张译文blskye</p>
 				</div>
 				<div class="cont-count">
 					<div class="row">
 						<div class="col-md-4">
-							<p>发文</p><span>2586</span>
+							<p>发文</p><a href=""><span>2586</span></a>
 						</div>
 						<div class="col-md-4">
-							<p>关注</p><span>185</span>
+							<p>关注</p><a href=""><span>185</span></a>
 						</div>
 						<div class="col-md-4">
-							<p>粉丝</p><span>221</span>
+							<p>粉丝</p><a href=""><span>221</span></a>
 						</div>
 					</div>
 				</div>
@@ -86,12 +86,46 @@
 				</div>
 			</div>
 			<div class="sub-articlebox">
-				<div class="row sub-article">
-					<div class="col-md-2 article-logo"></div>
-					<div class="col-md-10 article-cont">
-						<h4 class="article-name"></h4>
-						<span class="article-time"></span>
-						<p class="article-txt"></p>
+				<div class="sub-article clearfix">
+					<div class="pull-left article-logo">
+						<img src="img/userlogo-mini.jpg" alt="">
+					</div>
+					<div class="pull-left article-cont">
+						<p><a href="" class="article-name">张译文blskye</a><span class="article-name2">(张译文)</span></p>
+						<span class="article-time"><em>11分钟前</em>来自<em>iPhone 6s</em></span>
+						<div class="article-txt">
+							<p>一个人素质的优劣，脾气泄露了人的修养，沉默道出了人的品味。人最大的修养，是知人不评人 ​​​​。</p>
+						</div>
+					</div>
+					<div class="article-oper"></div>
+				</div>
+			</div>
+			<div class="sub-articlebox">
+				<div class="sub-article clearfix">
+					<div class="pull-left article-logo">
+						<img src="img/userlogo-mini2.jpg" alt="">
+					</div>
+					<div class="pull-left article-cont">
+						<p><a href="" class="article-name">昊_Tian</a><span class="article-name2">(小豪)</span></p>
+						<span class="article-time"><em>2017-08-05 12:26</em>来自<em>Android客户端</em></span>
+						<div class="article-txt">
+							<p>从设计客户端路由开始，我就一直对前端充满着好奇。直到自己真正开始写前端一段时间后，发现很多概念在客户端上也有，只是有点区别。本着让 Vue 和 iOS 两端相互借鉴学习各自的优点，周末整理了一下两端在组件化方面的对比，如有错误，还请各位大佬赐教。</p>
+							<img src="img/demo1.jpg" alt="">
+						</div>
+					</div>
+					<div class="row article-oper">
+						<div class="col-md-3">
+							<a><i class="icon2-star-outline"></i> 收藏</a>
+						</div>
+						<div class="col-md-3">
+							<a><i class="icon2-export"></i> 转发</a>
+						</div>
+						<div class="col-md-3">
+							<a><i class="icon2-message-typing"></i> 评论</a>
+						</div>
+						<div class="col-md-3">
+							<a><i class="icon2-thumbs-up2"></i> 赞</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -102,4 +136,5 @@
 </body>
 <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
 </html>
