@@ -21,7 +21,7 @@
     <div class="container">
         <!-- 登录模块 -->
         <form id="login" method="post" action="login.jsp" onsubmit="return checkForm(this);">
-            <div id="login_header"><i class="icon-home"></i>智能小区服务管理系统</div>
+            <div id="login_header"><i class="icon-home"></i>密聊</div>
 
             <div id="login_content">
                     <span>
@@ -29,7 +29,7 @@
                                onblur="onBlur(this);">
                         <label for="username">用户名</label>
                         <i class="icon-user"></i>
-                        <div class="tooltip" data-text="填写您的身份证号">填写您的身份证号</div>
+                        <div class="tooltip" data-text="填写您的用户名">填写您的用户名</div>
                     </span>
                 <span>
                         <input class="tip" name="password" type="password" maxlength="16" onclick="onClick(this);"
@@ -38,16 +38,6 @@
                         <i class="icon-lock"></i>
                         <div class="tooltip" data-text="填写您的密码">填写您的密码</div>
                     </span>
-                <div class="option">
-                    <div class="option_result">用户类型</div>
-                    <div class="option_arrow"><b class="arrow"></b></div>
-                    <ul class="option_list">
-                        <li>住户</li>
-                        <li>管理员</li>
-                        <li>运营商</li>
-                    </ul>
-                    <div class="tooltip" data-text="选择您的用户类型">选择您的用户类型</div>
-                </div><!-- / .option -->
             </div><!-- / #login_content -->
 
             <div id="login_footer">
@@ -66,23 +56,23 @@
                     <span>
                         <input class="tip" name="realname" type="text" maxlength="4" onclick="onClick(this);"
                                onblur="onBlur(this);">
-                        <label for="realname">真实姓名</label>
+                        <label for="realname">用户名</label>
                         <i class="icon-user"></i>
-                        <div class="tooltip" data-text="填写您的真实中文姓名">填写您的真实中文姓名</div>
+                        <div class="tooltip" data-text="汉字、下划线或字母">汉字、下划线或字母</div>
                     </span>
-                <span>
-                        <input class="tip" name="ID" type="text" maxlength="18" onclick="onClick(this);"
-                               onblur="onBlur(this);">
-                        <label for="ID">身份证号</label>
-                        <i class="icon-lock"></i>
-                        <div class="tooltip" data-text="填写您的真实身份证号码">填写您的真实身份证号码</div>
-                    </span>
-                <span>
+                    <span>
                         <input class="tip" name="password" maxlength="16" type="password" onclick="onClick(this);"
                                onblur="onBlur(this);">
                         <label for="password">密码</label>
                         <i class="icon-lock"></i>
-                        <div class="tooltip" data-text="填写6~16个字母或者数字">填写6~16位字母或者数字</div>
+                        <div class="tooltip" data-text="填写6~16位字母或者数字">填写6~16位字母或者数字</div>
+                    </span>
+                <span>
+                        <input class="tip" name="password" maxlength="16" type="password" onclick="onClick(this);"
+                               onblur="onBlur(this);">
+                        <label for="password">确认密码</label>
+                        <i class="icon-lock"></i>
+                        <div class="tooltip" data-text="与密码保持一致">与密码保持一致</div>
                     </span>
             </div><!-- / #register_content -->
             <div id="register_footer">

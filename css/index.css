@@ -358,3 +358,44 @@
     font-size: 18px;
     vertical-align: text-top;
 }
+
+/*个人中心*/
+.index-cont-home{
+    width: 1000px;
+    margin: 50px auto 40px;
+}
+.index-cont-home .home-head{
+    height: 300px;
+    background: #c0b7ff;
+    background: rgba(144, 102, 255, 0.2);
+    text-align: center;
+}
+.home-head .head-img{}
+.home-head .head-img img{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 48px auto 0;
+    padding: 4px;
+    background: #fff;
+    background: rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+.home-head .head-name{
+    font-size: 22px;
+    display: inline-block;
+    margin-top: 18px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    vertical-align: text-bottom;
+}
+.home-head .head-motto{
+    margin-top: 4px;
+    text-align: center;
+    color: #fff;
+    line-height: 18px;
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    font-size: 12px;
+    padding: 0 10px;
+}
